@@ -5,11 +5,11 @@ class Kramli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.2/kramli-aarch64-apple-darwin.tar.xz"
-      sha256 "5874e12981613661c5acdc014a5cd56c8bfa449edb2f127e428db198ed9698ab"
+      sha256 "fb01fa0e7403ed7b12ccafe9463aa7d863a09f0db23c389d642a2bd1506fd88d"
     end
     if Hardware::CPU.intel?
       url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.2/kramli-x86_64-apple-darwin.tar.xz"
-      sha256 "f2a5985fbe79a369c605323afb4c3a807f649e30778f90ba18e8438eb3e476f5"
+      sha256 "8b2e3e56fc7fcd3e6796e701bf99904936db3b77d1fbd5be5dbd48ac442ff937"
     end
   end
   if OS.linux?
