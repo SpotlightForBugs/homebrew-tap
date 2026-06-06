@@ -1,25 +1,25 @@
 class Kramli < Formula
   desc "CLI client for the Kramli shopping & todo list app"
   homepage "https://github.com/SpotlightForBugs/kramli-cli"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.5/kramli-aarch64-apple-darwin.tar.xz"
-      sha256 "89b6ddb77a06303e19d04c2c0fe4faafc73651dba4bb8733ad115bd0720ffa4e"
+      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.6/kramli-aarch64-apple-darwin.tar.xz"
+      sha256 "b35442548bf4cf201e37243aa465d2247048ac7b51eeb33f065cba1d8b8c9a7b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.5/kramli-x86_64-apple-darwin.tar.xz"
-      sha256 "ac284f2c2e3aa3c86d29573e354173d6f87babfebbb06f37f7892e71136a8599"
+      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.6/kramli-x86_64-apple-darwin.tar.xz"
+      sha256 "d655d4fd2366b42cc76b35b76c83e6df3818f207e3725e870f8b814ff68263d7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.5/kramli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "378aa4ff36f5ba9c46868e7ffba7ded6c13aebfa4d49e2f742ffd50e4fddef04"
+      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.6/kramli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "16553348b92fbe29c01a5f392d3748cc5e179ad732de4302ad3ff713e2cbbfa9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.5/kramli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "5db95436272eb15aeac05cd992007f208391b49d7028549ae873b94881050c53"
+      url "https://github.com/SpotlightForBugs/kramli-cli/releases/download/v0.1.6/kramli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "deb03a5a7180128fa9b9e23f59d316c2e6bedd465f784700d4b45b1c222df5ed"
     end
   end
   license "MIT"
