@@ -1,6 +1,5 @@
-# homebrew-tap
 
-## Homebrew formulae for Spotlightforbug's Projects. 
+# Homebrew formulae for Spotlightforbug's Projects. 
 
 ---
 Kramli CLI.
