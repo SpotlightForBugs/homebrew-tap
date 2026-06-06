@@ -1,6 +1,12 @@
-# SpotlightForBugs Homebrew Tap
+<p align="center">
+  <img src=".github/assets/logo.svg" alt="Kramli" width="96" height="96">
+</p>
 
-Homebrew formulae for [SpotlightForBugs](https://github.com/SpotlightForBugs) projects on macOS and Linux.
+<h1 align="center">SpotlightForBugs Homebrew Tap</h1>
+
+<p align="center">
+  Homebrew formulae for <a href="https://github.com/SpotlightForBugs">SpotlightForBugs</a> projects on macOS and Linux.
+</p>
 
 ```bash
 brew tap SpotlightForBugs/tap
